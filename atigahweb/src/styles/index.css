@@ -1,0 +1,49 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+a:hover {
+    color: #003399;
+    text-decoration: underline;
+}
+
+.primary-color {
+    color: #0066cc;
+}
+
+.secondary-color {
+    color: #003399;
+}
+
+.bg-primary {
+    background-color: #0066cc;
+}
+
+.bg-secondary {
+    background-color: #003399;
+}
+
+.btn {
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #003399;
+}
