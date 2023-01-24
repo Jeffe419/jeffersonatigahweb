@@ -6,10 +6,12 @@ import "./styles/NavBarCss.css";
 import index from "./styles/index.css";
 import Footer from "./components/Footer";
 import "./styles/Footer.css";
+import AboutSection from "./components/AboutSection";
 function App() {
   return (
     <>
       <NavBar />
+      <AboutSection />
       <Footer />
     </>
   );

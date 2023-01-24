@@ -1,14 +1,26 @@
 footer {
     font-family: 'Open Sans', sans-serif;
     color: #333;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
+
 
 footer a {
     color: #333;
     text-decoration: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
 }
 
-footer a:hover {
-    color: #003399;
-    text-decoration: underline;
+footer a span {
+    margin-left: 10px;
+}
+
+footer .container {
+    padding: 10px;
 }

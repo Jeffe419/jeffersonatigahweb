@@ -1,0 +1,24 @@
+.about-section h2 {
+    animation: fadeIn 4s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.about-section {
+    background-color: #f9f9f9;
+    overflow: hidden;
+    margin: 5% 20%;
+    text-align: right;
+}
+
+.about-section img {
+    width: 450px;
+    height: 450px;
+}
