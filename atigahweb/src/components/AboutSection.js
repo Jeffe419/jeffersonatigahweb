@@ -1,14 +1,15 @@
 import React from "react";
 import { Button, Row, Col } from "react-bootstrap";
-import "../styles/AboutSection.css";
 import ProfilePicture from "../images/ProfilePicture.jpg";
+import "../styles/AboutSection.css";
 
 const AboutSection = () => {
   return (
     <section className="about-section d-flex">
       <Row>
         <Col
-          xs={6}
+          xs={12}
+          md={6}
           className="d-flex flex-column justify-content-center align-items-center"
         >
           <h2 className="text-center font-weight-bold">
@@ -23,11 +24,11 @@ const AboutSection = () => {
           </p>
           <div className="text-center">
             <Button variant="secondary" href="#">
-              Check Out Projects
+              See my projects
             </Button>
           </div>
         </Col>
-        <Col xs={6} className="text-center">
+        <Col xs={12} md={6} className="text-center">
           <img
             src={ProfilePicture}
             alt="Profile Picture"
