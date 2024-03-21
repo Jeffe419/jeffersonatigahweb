@@ -12,10 +12,12 @@
 }
 
 .about-section {
-    background-color: #f9f9f9;
     overflow: hidden;
-    margin: 5% 20%;
+    margin: 6% 20%;
     text-align: right;
+    background-color: rgba(255, 255, 240, 0.5); /* Ivory color with 50% opacity */
+    border-radius: 25px;
+    border: #241846 2px solid;
 }
 
 .about-section img {

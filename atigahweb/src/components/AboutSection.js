@@ -13,9 +13,9 @@ const AboutSection = () => {
           className="d-flex flex-column justify-content-center align-items-center"
         >
           <h2 className="text-center font-weight-bold">
-            Hi, I have been expecting you
+            Hi, Jeff here, Welcome!
           </h2>
-          <p className="text-justify">
+          <p className="text-center">
             I am a software developer with a passion for coding. I am
             particularly interested in frameworks such as React, Next.js, and
             Artificial Intelligence. I am also interested in cloud platform
@@ -33,8 +33,8 @@ const AboutSection = () => {
             src={ProfilePicture}
             alt="Profile Picture"
             className="img-fluid rounded-circle mx-auto d-block"
-            width="450"
-            height="450"
+            width="400"
+            height="400"
           />
         </Col>
       </Row>
