@@ -1,6 +1,8 @@
 .about-section h2 {
-    animation: fadeIn 4s ease-in-out infinite;
+    animation: fadeIn 10s ease-in-out infinite;
 }
+
+
 
 @keyframes fadeIn {
     from {
@@ -14,6 +16,7 @@
 .about-section {
     overflow: hidden;
     margin: 6% 20%;
+    padding: 10px;
     text-align: right;
     background-color: rgba(255, 255, 240, 0.5); /* Ivory color with 50% opacity */
     border-radius: 25px;
@@ -23,4 +26,12 @@
 .about-section img {
     width: 450px;
     height: 450px;
+    margin: 10px;
 }
+
+.resume-iframe {
+    margin-top: -40px; 
+    margin-left: auto;
+    margin-right: auto;
+    display: block; /* This ensures the margin settings apply correctly */
+  }

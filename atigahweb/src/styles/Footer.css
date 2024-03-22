@@ -1,13 +1,14 @@
 footer {
     font-family: 'Open Sans', sans-serif;
     color: #333;
-    position: absolute;
+    
     bottom: 0;
     width: 100%;
+    left: 0;
     border: 1px solid #ccc;
     border-radius: 4px;
+    background: white; /* Ensure the footer has a background to not see content through it */
 }
-
 
 footer a {
     color: #333;

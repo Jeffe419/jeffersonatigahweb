@@ -2,17 +2,38 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #333;
     background-color: #f9f9f9;
-    background: url("../images/146828.jpg") no-repeat center center fixed; 
+    position: relative;
+     /* Ensures the blur doesn't overflow */
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../images/146828.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    filter: blur(5px); /* Adjust the blur value as needed */
+    z-index: -1;
+    padding-bottom: 70px;
 }
 
-h1,p, h2, h3, h4, h5, h6 {
+h1,p, h2, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
     color: #000000;
     font-weight: bold;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: bold;
+    
 }
 
 a {

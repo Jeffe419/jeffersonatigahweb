@@ -16,14 +16,13 @@ const AboutSection = () => {
             Hi, Jeff here, Welcome!
           </h2>
           <p className="text-center">
-            I am a software developer with a passion for coding. I am
-            particularly interested in frameworks such as React, Next.js, and
-            Artificial Intelligence. I am also interested in cloud platform
-            development. I am always looking for new challenges and
-            opportunities to improve my skills and knowledge.
+
+          Hello from a tech enthusiast who's traveled from West Africa to the UK, eagerly seizing every learning opportunity. I thoroughly enjoyed creating this website, as it allowed me to express my passion for technology and design. My academic journey led me from Glasgow Caledonian University to a Master's at Strathclyde, focusing on coding, machine learning, and web development. <br/>
+          My skills span Java, Python, React, the MERN stack, DevOps, and cloud technologies like AWS and Docker. Beyond coding, I delve into artificial intelligence and cloud development.<br></br>
+          So, while my story is still unfolding, I'm excited for what the future holds in technology and beyond.
           </p>
           <div className="text-center">
-            <Button variant="secondary" href="#">
+            <Button variant="secondary" href="/projects">
               See my projects
             </Button>
           </div>
@@ -33,8 +32,7 @@ const AboutSection = () => {
             src={ProfilePicture}
             alt="Profile Picture"
             className="img-fluid rounded-circle mx-auto d-block"
-            width="400"
-            height="400"
+            
           />
         </Col>
       </Row>

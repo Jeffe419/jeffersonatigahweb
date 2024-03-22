@@ -15,7 +15,7 @@ const Footer = () => {
         <Row>
           <Col md={12} className="d-flex justify-content-center">
             <a
-              href="https://www.linkedin.com/in/jeffersonatigah/"
+              href="https://www.linkedin.com/in/jefferson-atigah-2709b716a/"
               target="_blank"
               rel="noopener noreferrer"
               className="mr-3"
