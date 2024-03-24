@@ -2,8 +2,6 @@
     animation: fadeIn 10s ease-in-out infinite;
 }
 
-
-
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -23,6 +21,11 @@
     border: #241846 2px solid;
 }
 
+
+.min-full-height {
+    min-height: calc(100vh - 150px); 
+}
+
 .about-section img {
     width: 450px;
     height: 450px;
@@ -34,4 +37,36 @@
     margin-left: auto;
     margin-right: auto;
     display: block; /* This ensures the margin settings apply correctly */
-  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .about-section {
+        margin: 6% 10%; /* Smaller margins */
+    }
+
+    .about-section h2, .about-section p {
+        font-size: 0.9em; /* Smaller text */
+    }
+
+    .about-section img {
+        width: 300px; /* Smaller image */
+        height: 300px;
+        margin: 5px; /* Smaller margin */
+    }
+}
+
+@media (max-width: 576px) {
+    .about-section {
+        margin: 6% 5%; /* Even smaller margins for very small devices */
+    }
+
+    .about-section h2, .about-section p {
+        font-size: 0.8em; /* Even smaller text */
+    }
+
+    .about-section img {
+        width: 200px; /* Even smaller image */
+        height: 200px;
+    }
+}
