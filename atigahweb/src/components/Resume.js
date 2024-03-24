@@ -29,7 +29,7 @@ const Resume = () => {
           <iframe
             src={resumePdfUrl}
             width="100%"
-            height="700px"
+            height="800px"
             title="Resume"
             className="resume-iframe"
           ></iframe>
